@@ -1,0 +1,12 @@
+:inoremap jk <Esc>
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap ff <cmd>Telescope find_files<cr>
+nnoremap fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>tt <cmd>NvimTreeToggle<cr>
+nnoremap <leader>tf <cmd>NvimTreeFocus<cr>
+nnoremap <leader>bd :bufdo bd<cr>
+command! Bd %bd
+command! Bo %bd|e#|bd#
+

@@ -1,0 +1,16 @@
+{
+  "languageserver": {
+    "angular": {
+      "command": "ngserver",
+      "args": [
+        "--stdio",
+        "--tsProbeLocations",
+				"/Users/nazariok/.nvm/versions/node/v24.6.0/lib/node_modules/typescript/lib",
+        "--ngProbeLocations",
+				"/Users/nazariok/.nvm/versions/node/v24.6.0/lib/node_modules/@angular/language-server/bin"
+      ],
+      "filetypes": ["ts", "typescript", "html"],
+      "trace.server.verbosity": "verbose"
+    }
+  }
+}
