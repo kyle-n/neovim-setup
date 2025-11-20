@@ -15,8 +15,8 @@ Plug('nvim-lua/plenary.nvim')
 Plug('github/copilot.vim')
 Plug('pocco81/auto-save.nvim')
 Plug('alvan/vim-closetag')
-Plug('f-person/git-blame.nvim')
 Plug('windwp/nvim-autopairs')
+Plug('lewis6991/gitsigns.nvim')
 
 vim.call('plug#end')
 
@@ -32,8 +32,8 @@ require("auto-save").setup {
 dofile(vim.fn.stdpath('config') .. '/theme.lua')
 dofile(vim.fn.stdpath('config') .. '/lsp.lua')
 
-require('gitblame').setup {
-	message_template = '<<sha>> • <date> • <author>'
+require('gitsigns').setup {
+	current_line_blame = true,
 }
 
 require('nvim-autopairs').setup()
