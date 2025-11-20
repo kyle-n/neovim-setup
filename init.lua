@@ -13,7 +13,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug('nvim-telescope/telescope.nvim', {['tag'] = 'v0.1.9' })
 Plug('nvim-lua/plenary.nvim')
 Plug('github/copilot.vim')
-Plug('pocco81/auto-save.nvim')
 Plug('alvan/vim-closetag')
 Plug('windwp/nvim-autopairs')
 Plug('lewis6991/gitsigns.nvim')
@@ -26,9 +25,6 @@ package.path = home .. "/.config/nvim/?.lua;" .. package.path
 require "common"
 require "vimtree"
 require "barbarconfig"
-require("auto-save").setup {
-	debounce_delay = 1000
-}
 dofile(vim.fn.stdpath('config') .. '/theme.lua')
 dofile(vim.fn.stdpath('config') .. '/lsp.lua')
 
