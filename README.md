@@ -37,10 +37,16 @@ mv neovim-setup nvim
 :PlugInstall
 ```
 
-8. Also run:
+8. For Angular LSP support:
 
 ```vim
 CocInstall coc-angular
+```
+
+9. For TailwindCSS LSP support:
+
+```vim
+CocInstall @yaegassy/coc-tailwindcss3
 ```
 
 Enjoy!
