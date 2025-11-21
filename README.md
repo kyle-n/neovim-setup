@@ -31,10 +31,16 @@ mv neovim-setup nvim
 
 5. Install [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server)
 6. Install [vim-plug](https://github.com/junegunn/vim-plug)
-6. Open Neovim and run:
+7. Open Neovim and run:
 
 ```vim
 :PlugInstall
+```
+
+8. Also run:
+
+```vim
+CocInstall coc-angular
 ```
 
 Enjoy!
