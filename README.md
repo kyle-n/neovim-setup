@@ -42,7 +42,8 @@ Enjoy!
 ## Todo
 
 - Autocomplete for Tailwind classes
-- Autosave breaks undo - might have to turn that off
+- LSP for Angular HTML files
+- LSP for SCSS files
 
 ## Keyboard cheat sheet
 
