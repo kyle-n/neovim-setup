@@ -44,3 +44,5 @@ vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter" }, {
   command = "if mode() != 'c' | checktime | endif",
   pattern = "*",
 })
+
+vim.g.copilot_proxy_strict_ssl = false
