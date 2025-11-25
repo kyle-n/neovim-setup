@@ -12,5 +12,6 @@
       "filetypes": ["ts", "typescript", "html"],
       "trace.server.verbosity": "verbose"
     }
-  }
+  },
+  "angular.enable-strict-mode-prompt": false
 }

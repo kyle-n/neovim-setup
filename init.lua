@@ -45,4 +45,6 @@ vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter" }, {
   pattern = "*",
 })
 
-vim.g.copilot_proxy_strict_ssl = false
+vim.cmd [[
+let g:copilot_proxy_strict_ssl = v:false
+]]
