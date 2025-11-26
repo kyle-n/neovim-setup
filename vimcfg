@@ -9,4 +9,6 @@ nnoremap <leader>tf <cmd>NvimTreeFocus<cr>
 nnoremap <leader>bd :bufdo bd<cr>
 command! Bd %bd
 command! Bo %bd|e#|bd#
+:au BufNewFile,BufRead *.txt set wrap
+:au BufNewFile,BufRead *.md set wrap
 
