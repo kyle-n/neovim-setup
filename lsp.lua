@@ -1,3 +1,10 @@
+require('mason').setup {
+	registries = {
+		"github:mason-org/mason-registry",
+		"github:Crashdummyy/mason-registry"
+	}
+}
+
 vim.lsp.enable('tsserver')
 
 vim.lsp.config('tsserver', {

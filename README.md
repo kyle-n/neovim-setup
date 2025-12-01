@@ -43,6 +43,7 @@ mv neovim-setup nvim
 CocInstall coc-angular
 CocInstall @yaegassy/coc-tailwindcss3
 CocInstall coc-css
+MasonInstall roslyn
 ```
 
 Enjoy!

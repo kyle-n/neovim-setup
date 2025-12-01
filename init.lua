@@ -16,6 +16,8 @@ Plug('github/copilot.vim')
 Plug('alvan/vim-closetag')
 Plug('windwp/nvim-autopairs')
 Plug('lewis6991/gitsigns.nvim')
+Plug('mason-org/mason.nvim')
+Plug('seblyng/roslyn.nvim')
 
 vim.call('plug#end')
 
